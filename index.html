@@ -2,36 +2,166 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background-color: hsl(225, 100%, 94%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      height: 550px;
+      background-color: white;
+      border-radius: 20px;
+      width: 350px;
+    }
+
+    .order-summary {
+      text-align: center;
+      font-weight: 900;
+      font-size: 20px;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+
+    img {
+      align-self: center;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 500;
+      margin: 20px;
+    }
+
+    .annual-plan {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: hsl(225, 100%, 98%);
+      padding: 5px;
+      margin: auto;
+      width: 260px;
+      border-radius: 10px;
+      height: 60px;
+    }
+
+    .pic {
+      padding: 5px;
+      background-color: hsl(225, 100%, 98%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .price {
+      text-align: left;
+      margin: 5px;
+      align-items: center;
+      padding-left: 10px;
+      height: 40px;
+      padding-top: 0;
+    }
+
+    .change {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      padding-left: 60px;
+      padding-bottom: 5px;
+      color: hsl(245, 75%, 52%);
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'Red Hat Display', sans-serif;
+      height: 10px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'Red Hat Display', sans-serif;
+      color: hsl(224, 23%, 55%);
+      height: 10px;
+    }
+
+    .proceed-to-pay {
+      text-align: center;
+      margin: auto;
+      padding: 10px; 
+      color: white;
+      background-color: hsl(245, 75%, 52%);
+      border-radius: 10px;
+      width: 250px;
+      font-size: 14px;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 700;
+    }
+
+    .cancel-order {
+      text-align: center;
+      padding: 20px;
+      color: hsl(224, 23%, 55%);
+      font-size: 14px;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 700;
+    }
+
+
   </style>
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="picture">
+      <img src="images\illustration-hero.svg" width="350px">
+    </div>
+    <br>
+    <br>
+    <div class="order-summary">
+      Order Summary
+    </div>
+    <p>
+      You can now listen to millions of songs, audiobooks, and podcasts on any device anytime you like!
+    </p>
+    <div class="annual-plan">
+      <div class="pic">
+        <img src="images\icon-music.svg" width="35px">
+      </div>
+      <div class="price">
+      <h1>Annual Plan</h1>
+      <h2>$59.99/year</h2>
+      </div>
+      <div class="change">Change</div>
+    </div>
+    <br>
+    <br>
+    <div class="proceed-to-pay">
+      Proceed to Payment
+    </div>
+    <br>
+    <div class="cancel-order">
+      Cancel Order
+    </div>
   </div>
 </body>
 </html>
