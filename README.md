@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution] (https://coderboi1024.github.io/OrderComponentSummary/)
-- [Repository] (https://github.com/CoderBoi1024/OrderComponentSummary)
+- [Solution](https://coderboi1024.github.io/OrderComponentSummary/)
+- [Repository](https://github.com/CoderBoi1024/OrderComponentSummary)
 ## My process
 
 ### Built with
@@ -52,5 +52,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@CoderBoi1024](https://www.frontendmentor.io/profile/CoderBoi1024)
+- GitHub - [@CoderBoi1024](https://github.com/CoderBoi1024)
