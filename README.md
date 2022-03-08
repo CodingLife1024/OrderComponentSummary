@@ -24,9 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-
 ![Desktop version](https://github.com/CoderBoi1024/OrderComponentSummary/blob/main/images/Desktop_Screenshot.jpg)
-![Active States](https://github.com/CoderBoi1024/OrderComponentSummary/blob/main/images/Payment_Hover.jpg)
 
 ### Links
 
@@ -43,7 +41,7 @@ Users should be able to:
 ### What I learned
 
 - How to use CSS styles and flexbox effectively and quickly.
-- How ot employ hover snd active states.
+- How to employ hover snd active states.
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
