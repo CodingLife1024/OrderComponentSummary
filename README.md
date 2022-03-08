@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop screenshot (images\Desktop_Screenshot.jpg)
-- Active states screenshots (images\Cancel_Order_Hover.jpg) (images\Change_Hover.jpg) (images\Payment_Hover.jpg)
+- Desktop screenshot (https://github.com/CoderBoi1024/OrderComponentSummary/blob/main/images/Desktop_Screenshot.jpg)
+- Active states screenshots () () ()
 
 ### Links
 
